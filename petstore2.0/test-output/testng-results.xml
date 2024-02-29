@@ -1,109 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="21" passed="19" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-29T10:25:41Z" name="Suite" finished-at="2024-02-29T10:26:06Z" duration-ms="24495">
+  <suite started-at="2024-02-29T12:13:51Z" name="Default suite" finished-at="2024-02-29T12:14:02Z" duration-ms="10989">
     <groups>
     </groups>
-    <test started-at="2024-02-29T10:25:41Z" name="Test" finished-at="2024-02-29T10:26:06Z" duration-ms="24495">
+    <test started-at="2024-02-29T12:13:51Z" name="Default test" finished-at="2024-02-29T12:14:02Z" duration-ms="10989">
       <class name="user.UserTest">
-        <test-method is-config="true" signature="bc()[pri:0, instance:user.UserTest@1e44b638]" started-at="2024-02-29T10:25:56Z" name="bc" finished-at="2024-02-29T10:25:56Z" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="bs()[pri:0, instance:user.UserTest@babafc2]" started-at="2024-02-29T12:13:51Z" name="bs" finished-at="2024-02-29T12:13:51Z" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method is-config="true" signature="bc()[pri:0, instance:user.UserTest@babafc2]" started-at="2024-02-29T12:13:51Z" name="bc" finished-at="2024-02-29T12:13:52Z" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method signature="createUserTest()[pri:12, instance:user.UserTest@1e44b638]" started-at="2024-02-29T10:25:56Z" name="createUserTest" finished-at="2024-02-29T10:25:57Z" duration-ms="1218" status="PASS">
+        <test-method signature="createUserTest()[pri:12, instance:user.UserTest@babafc2]" started-at="2024-02-29T12:13:52Z" name="createUserTest" finished-at="2024-02-29T12:13:54Z" duration-ms="2014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserTest -->
-        <test-method signature="loginUserTest()[pri:13, instance:user.UserTest@1e44b638]" started-at="2024-02-29T10:25:57Z" name="loginUserTest" finished-at="2024-02-29T10:25:58Z" duration-ms="1222" status="PASS">
+        <test-method signature="loginUserTest()[pri:13, instance:user.UserTest@babafc2]" started-at="2024-02-29T12:13:54Z" name="loginUserTest" finished-at="2024-02-29T12:13:55Z" duration-ms="1199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUserTest -->
-        <test-method signature="createArrayOfUsersTest()[pri:14, instance:user.UserTest@1e44b638]" started-at="2024-02-29T10:25:58Z" name="createArrayOfUsersTest" finished-at="2024-02-29T10:26:00Z" duration-ms="1181" status="PASS">
+        <test-method signature="createArrayOfUsersTest()[pri:14, instance:user.UserTest@babafc2]" started-at="2024-02-29T12:13:55Z" name="createArrayOfUsersTest" finished-at="2024-02-29T12:13:56Z" duration-ms="1175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArrayOfUsersTest -->
-        <test-method signature="createListOfUsersTest()[pri:15, instance:user.UserTest@1e44b638]" started-at="2024-02-29T10:26:00Z" name="createListOfUsersTest" finished-at="2024-02-29T10:26:01Z" duration-ms="1219" status="PASS">
+        <test-method signature="createListOfUsersTest()[pri:15, instance:user.UserTest@babafc2]" started-at="2024-02-29T12:13:56Z" name="createListOfUsersTest" finished-at="2024-02-29T12:13:57Z" duration-ms="1196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createListOfUsersTest -->
-        <test-method signature="readUserTest()[pri:16, instance:user.UserTest@1e44b638]" started-at="2024-02-29T10:26:01Z" name="readUserTest" finished-at="2024-02-29T10:26:02Z" duration-ms="1202" status="PASS">
+        <test-method signature="readUserTest()[pri:16, instance:user.UserTest@babafc2]" started-at="2024-02-29T12:13:57Z" name="readUserTest" finished-at="2024-02-29T12:13:59Z" duration-ms="1192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readUserTest -->
-        <test-method signature="updateUserTest()[pri:17, instance:user.UserTest@1e44b638]" started-at="2024-02-29T10:26:02Z" name="updateUserTest" finished-at="2024-02-29T10:26:03Z" duration-ms="1203" status="PASS">
+        <test-method signature="updateUserTest()[pri:17, instance:user.UserTest@babafc2]" started-at="2024-02-29T12:13:59Z" name="updateUserTest" finished-at="2024-02-29T12:14:00Z" duration-ms="1195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserTest -->
-        <test-method signature="logoutUserTest()[pri:18, instance:user.UserTest@1e44b638]" started-at="2024-02-29T10:26:03Z" name="logoutUserTest" finished-at="2024-02-29T10:26:04Z" duration-ms="1201" status="PASS">
+        <test-method signature="logoutUserTest()[pri:18, instance:user.UserTest@babafc2]" started-at="2024-02-29T12:14:00Z" name="logoutUserTest" finished-at="2024-02-29T12:14:01Z" duration-ms="1137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutUserTest -->
-        <test-method signature="deleteUserTest()[pri:19, instance:user.UserTest@1e44b638]" started-at="2024-02-29T10:26:04Z" name="deleteUserTest" finished-at="2024-02-29T10:26:06Z" duration-ms="1212" status="PASS">
+        <test-method signature="deleteUserTest()[pri:19, instance:user.UserTest@babafc2]" started-at="2024-02-29T12:14:01Z" name="deleteUserTest" finished-at="2024-02-29T12:14:02Z" duration-ms="1207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUserTest -->
       </class> <!-- user.UserTest -->
-      <class name="pets.PetsTest">
-        <test-method is-config="true" signature="bs()[pri:0, instance:pets.PetsTest@95e33cc]" started-at="2024-02-29T10:25:41Z" name="bs" finished-at="2024-02-29T10:25:41Z" duration-ms="321" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bc()[pri:0, instance:pets.PetsTest@95e33cc]" started-at="2024-02-29T10:25:41Z" name="bc" finished-at="2024-02-29T10:25:41Z" duration-ms="165" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bc -->
-        <test-method signature="addPetTest()[pri:1, instance:pets.PetsTest@95e33cc]" started-at="2024-02-29T10:25:41Z" name="addPetTest" finished-at="2024-02-29T10:25:43Z" duration-ms="2115" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addPetTest -->
-        <test-method signature="uploadPetImageTest()[pri:2, instance:pets.PetsTest@95e33cc]" started-at="2024-02-29T10:25:43Z" name="uploadPetImageTest" finished-at="2024-02-29T10:25:45Z" duration-ms="1552" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- uploadPetImageTest -->
-        <test-method signature="findPetByStatusTest()[pri:3, instance:pets.PetsTest@95e33cc]" started-at="2024-02-29T10:25:45Z" name="findPetByStatusTest" finished-at="2024-02-29T10:25:46Z" duration-ms="1221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findPetByStatusTest -->
-        <test-method signature="updatePetTest()[pri:4, instance:pets.PetsTest@95e33cc]" started-at="2024-02-29T10:25:46Z" name="updatePetTest" finished-at="2024-02-29T10:25:47Z" duration-ms="1198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatePetTest -->
-        <test-method signature="findPetByIdTest()[pri:5, instance:pets.PetsTest@95e33cc]" started-at="2024-02-29T10:25:47Z" name="findPetByIdTest" finished-at="2024-02-29T10:25:49Z" duration-ms="1215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findPetByIdTest -->
-        <test-method signature="findPetWithFormDataTest()[pri:6, instance:pets.PetsTest@95e33cc]" started-at="2024-02-29T10:25:49Z" name="findPetWithFormDataTest" finished-at="2024-02-29T10:25:50Z" duration-ms="1206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findPetWithFormDataTest -->
-        <test-method signature="deletePetTest()[pri:7, instance:pets.PetsTest@95e33cc]" started-at="2024-02-29T10:25:50Z" name="deletePetTest" finished-at="2024-02-29T10:25:51Z" duration-ms="1197" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletePetTest -->
-      </class> <!-- pets.PetsTest -->
-      <class name="store.StoreTest">
-        <test-method is-config="true" signature="bc()[pri:0, instance:store.StoreTest@38604b81]" started-at="2024-02-29T10:25:51Z" name="bc" finished-at="2024-02-29T10:25:51Z" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bc -->
-        <test-method signature="placeOrderTest()[pri:8, instance:store.StoreTest@38604b81]" started-at="2024-02-29T10:25:51Z" name="placeOrderTest" finished-at="2024-02-29T10:25:52Z" duration-ms="1266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- placeOrderTest -->
-        <test-method signature="findPurchaseOrderTest()[pri:9, instance:store.StoreTest@38604b81]" started-at="2024-02-29T10:25:52Z" name="findPurchaseOrderTest" finished-at="2024-02-29T10:25:54Z" duration-ms="1171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findPurchaseOrderTest -->
-        <test-method signature="readPetInventoriesTest()[pri:10, instance:store.StoreTest@38604b81]" started-at="2024-02-29T10:25:54Z" name="readPetInventoriesTest" finished-at="2024-02-29T10:25:55Z" duration-ms="1217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readPetInventoriesTest -->
-        <test-method signature="deletePurchaseOrderTest()[pri:11, instance:store.StoreTest@38604b81]" started-at="2024-02-29T10:25:55Z" name="deletePurchaseOrderTest" finished-at="2024-02-29T10:25:56Z" duration-ms="1212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletePurchaseOrderTest -->
-      </class> <!-- store.StoreTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -1,0 +1,16 @@
+2024-02-29 17:41:17,871 [main] INFO  BaseClass - ================User added==================
+2024-02-29 17:41:19,118 [main] INFO  BaseClass - ================User Logged in==================
+2024-02-29 17:41:20,352 [main] INFO  BaseClass - ================User array added==================
+2024-02-29 17:41:21,553 [main] INFO  BaseClass - ================Users List added==================
+2024-02-29 17:41:22,761 [main] INFO  BaseClass - ================Users read==================
+2024-02-29 17:41:23,997 [main] INFO  BaseClass - ================User updated==================
+2024-02-29 17:41:25,197 [main] INFO  BaseClass - ================User logout==================
+2024-02-29 17:41:26,381 [main] INFO  BaseClass - ================User deleted==================
+2024-02-29 17:43:54,414 [main] INFO  UserTest - ================User added==================
+2024-02-29 17:43:55,619 [main] INFO  UserTest - ================User Logged in==================
+2024-02-29 17:43:56,796 [main] INFO  UserTest - ================User array added==================
+2024-02-29 17:43:57,994 [main] INFO  UserTest - ================Users List added==================
+2024-02-29 17:43:59,189 [main] INFO  UserTest - ================Users read==================
+2024-02-29 17:44:00,386 [main] INFO  UserTest - ================User updated==================
+2024-02-29 17:44:01,524 [main] INFO  UserTest - ================User logout==================
+2024-02-29 17:44:02,734 [main] INFO  UserTest - ================User deleted==================

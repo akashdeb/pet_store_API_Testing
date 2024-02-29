@@ -1,18 +1,10 @@
 package user;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.testng.annotations.BeforeClass;
+import org.apache.logging.log4j.core.Logger;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
-import com.github.javafaker.Faker;
-
 import endpoints.UserEndpoints;
 import io.restassured.response.Response;
-import payloads.CreateArrayOfUsers;
-import payloads.CreateUser;
 import utils.BaseClass;
 @Listeners(utils.ListenersImplementation.class)
 
@@ -23,6 +15,7 @@ public class UserTest extends BaseClass{
 		Response response = UserEndpoints.createUser(createUser);
 		response.then().statusCode(200)
 		.log().all();
+		logger.info("================User added==================");
 		System.out.println("================User added==================");
 
 	}
@@ -33,6 +26,7 @@ public class UserTest extends BaseClass{
 		
 		response.then().statusCode(200)
 		.log().all();
+		logger.info("================User Logged in==================");
 		System.out.println("================User Logged in==================");
 
 	}
@@ -43,6 +37,7 @@ public class UserTest extends BaseClass{
 		Response response = UserEndpoints.createArrayOfUsers(list);
 		response.then().statusCode(200)
 		.log().all();
+		logger.info("================User array added==================");
 		System.out.println("================User array added==================");
 
 	}
@@ -52,6 +47,7 @@ public class UserTest extends BaseClass{
 		Response response = UserEndpoints.createListOfUsers(list);
 		response.then().statusCode(200)
 		.log().all();
+		logger.info("================Users List added==================");
 		System.out.println("================Users List added==================");
 
 	}
@@ -63,6 +59,7 @@ public class UserTest extends BaseClass{
 		
 		response.then().statusCode(200)
 		.log().all();
+		logger.info("================Users read==================");
 		System.out.println("================Users read==================");
 
 	}
@@ -73,6 +70,7 @@ public class UserTest extends BaseClass{
 		
 		response.then().statusCode(200)
 		.log().all();
+		logger.info("================User updated==================");
 		System.out.println("================User updated==================");
 
 	}
@@ -83,6 +81,7 @@ public class UserTest extends BaseClass{
 		
 		response.then().statusCode(200)
 		.log().all();
+		logger.info("================User logout==================");
 		System.out.println("================User logout==================");
 
 	}
@@ -93,6 +92,7 @@ public class UserTest extends BaseClass{
 		
 		response.then().statusCode(200)
 		.log().all();
+		logger.info("================User deleted==================");
 		System.out.println("================User deleted==================");
 
 	}

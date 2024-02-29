@@ -1,5 +1,7 @@
 package utils;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
@@ -26,6 +28,7 @@ public class BaseClass {
 	public Tag tag;
 	public Pets pets;
 	public Order order;
+	public static Logger logger = null;
 	
 	@BeforeSuite
 	public void bs() {
@@ -35,6 +38,7 @@ public class BaseClass {
 	
 	@BeforeClass
 	public void bc() {
+		logger = LogManager.getLogger(this);
 		fake = new Faker();
 		category = new Category(fake.idNumber().hashCode(), fake.name().firstName());
 		tag = new Tag(fake.idNumber().hashCode(), fake.name().firstName());
@@ -51,6 +55,8 @@ public class BaseClass {
 		createUser=new CreateUser(fake.idNumber().hashCode(), fake.name().username(), fake.name().firstName(), fake.name().lastName(), fake.internet().emailAddress(), fake.internet().password(), fake.phoneNumber().cellPhone(), 0);
 		list=new ArrayList<CreateUser>();
 		list.add(createUser);
+		
+		
 	}
 
 }

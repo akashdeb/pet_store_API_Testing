@@ -1,12 +1,13 @@
 package endpoints;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 
 import java.io.File;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import payloads.Pets;
+import routes.PetsRoutes;
 
 public class PetEndpoints {
 

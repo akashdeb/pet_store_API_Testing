@@ -6,8 +6,8 @@ import java.util.List;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import payloads.CreateArrayOfUsers;
 import payloads.CreateUser;
+import routes.UserRoutes;
 
 public class UserEndpoints {
 
