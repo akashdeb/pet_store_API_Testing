@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\User\Desktop\Scripts\eclipse-workspace_RMGYantra\petstore2.0\BatchExecution.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pets.PetsTest" class="method navigator-link" hash-for-method="addPetTest">addPetTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="user.UserTest" class="method navigator-link" hash-for-method="createArrayOfUsersTest">createArrayOfUsersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="user.UserTest" class="method navigator-link" hash-for-method="createListOfUsersTest">createListOfUsersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="user.UserTest" class="method navigator-link" hash-for-method="createUserTest">createUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pets.PetsTest" class="method navigator-link" hash-for-method="deletePetTest">deletePetTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="store.StoreTest" class="method navigator-link" hash-for-method="deletePurchaseOrderTest">deletePurchaseOrderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="user.UserTest" class="method navigator-link" hash-for-method="deleteUserTest">deleteUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pets.PetsTest" class="method navigator-link" hash-for-method="findPetByIdTest">findPetByIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pets.PetsTest" class="method navigator-link" hash-for-method="findPetByStatusTest">findPetByStatusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pets.PetsTest" class="method navigator-link" hash-for-method="findPetWithFormDataTest">findPetWithFormDataTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="store.StoreTest" class="method navigator-link" hash-for-method="findPurchaseOrderTest">findPurchaseOrderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="user.UserTest" class="method navigator-link" hash-for-method="loginUserTest">loginUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="user.UserTest" class="method navigator-link" hash-for-method="logoutUserTest">logoutUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="store.StoreTest" class="method navigator-link" hash-for-method="placeOrderTest">placeOrderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="store.StoreTest" class="method navigator-link" hash-for-method="readPetInventoriesTest">readPetInventoriesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="user.UserTest" class="method navigator-link" hash-for-method="readUserTest">readUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pets.PetsTest" class="method navigator-link" hash-for-method="updatePetTest">updatePetTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="user.UserTest" class="method navigator-link" hash-for-method="updateUserTest">updateUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pets.PetsTest" class="method navigator-link" hash-for-method="uploadPetImageTest">uploadPetImageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">user.UserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createArrayOfUsersTest">
+                  </a> <!-- createArrayOfUsersTest -->
+                  <span class="method-name">createArrayOfUsersTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createListOfUsersTest">
+                  </a> <!-- createListOfUsersTest -->
+                  <span class="method-name">createListOfUsersTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserTest">
+                  </a> <!-- createUserTest -->
+                  <span class="method-name">createUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUserTest">
+                  </a> <!-- deleteUserTest -->
+                  <span class="method-name">deleteUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUserTest">
+                  </a> <!-- loginUserTest -->
+                  <span class="method-name">loginUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutUserTest">
+                  </a> <!-- logoutUserTest -->
+                  <span class="method-name">logoutUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readUserTest">
+                  </a> <!-- readUserTest -->
+                  <span class="method-name">readUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUserTest">
+                  </a> <!-- updateUserTest -->
+                  <span class="method-name">updateUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">store.StoreTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePurchaseOrderTest">
+                  </a> <!-- deletePurchaseOrderTest -->
+                  <span class="method-name">deletePurchaseOrderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPurchaseOrderTest">
+                  </a> <!-- findPurchaseOrderTest -->
+                  <span class="method-name">findPurchaseOrderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderTest">
+                  </a> <!-- placeOrderTest -->
+                  <span class="method-name">placeOrderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readPetInventoriesTest">
+                  </a> <!-- readPetInventoriesTest -->
+                  <span class="method-name">readPetInventoriesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pets.PetsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addPetTest">
+                  </a> <!-- addPetTest -->
+                  <span class="method-name">addPetTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePetTest">
+                  </a> <!-- deletePetTest -->
+                  <span class="method-name">deletePetTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPetByIdTest">
+                  </a> <!-- findPetByIdTest -->
+                  <span class="method-name">findPetByIdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPetByStatusTest">
+                  </a> <!-- findPetByStatusTest -->
+                  <span class="method-name">findPetByStatusTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPetWithFormDataTest">
+                  </a> <!-- findPetWithFormDataTest -->
+                  <span class="method-name">findPetWithFormDataTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePetTest">
+                  </a> <!-- updatePetTest -->
+                  <span class="method-name">updatePetTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadPetImageTest">
+                  </a> <!-- uploadPetImageTest -->
+                  <span class="method-name">uploadPetImageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\Desktop\Scripts\eclipse-workspace_RMGYantra\petstore2.0\BatchExecution.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pets.PetsTest&quot;/&gt;
+      &lt;class name=&quot;store.StoreTest&quot;/&gt;
+      &lt;class name=&quot;user.UserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addPetTest')
+data.setCell(0, 2, 'pets.PetsTest')
+data.setCell(0, 3, 2115);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'uploadPetImageTest')
+data.setCell(1, 2, 'pets.PetsTest')
+data.setCell(1, 3, 1552);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'placeOrderTest')
+data.setCell(2, 2, 'store.StoreTest')
+data.setCell(2, 3, 1266);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginUserTest')
+data.setCell(3, 2, 'user.UserTest')
+data.setCell(3, 3, 1222);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'findPetByStatusTest')
+data.setCell(4, 2, 'pets.PetsTest')
+data.setCell(4, 3, 1221);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createListOfUsersTest')
+data.setCell(5, 2, 'user.UserTest')
+data.setCell(5, 3, 1219);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createUserTest')
+data.setCell(6, 2, 'user.UserTest')
+data.setCell(6, 3, 1218);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'readPetInventoriesTest')
+data.setCell(7, 2, 'store.StoreTest')
+data.setCell(7, 3, 1217);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'findPetByIdTest')
+data.setCell(8, 2, 'pets.PetsTest')
+data.setCell(8, 3, 1215);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'deleteUserTest')
+data.setCell(9, 2, 'user.UserTest')
+data.setCell(9, 3, 1212);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'deletePurchaseOrderTest')
+data.setCell(10, 2, 'store.StoreTest')
+data.setCell(10, 3, 1212);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'findPetWithFormDataTest')
+data.setCell(11, 2, 'pets.PetsTest')
+data.setCell(11, 3, 1206);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'updateUserTest')
+data.setCell(12, 2, 'user.UserTest')
+data.setCell(12, 3, 1203);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'readUserTest')
+data.setCell(13, 2, 'user.UserTest')
+data.setCell(13, 3, 1202);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'logoutUserTest')
+data.setCell(14, 2, 'user.UserTest')
+data.setCell(14, 3, 1201);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'updatePetTest')
+data.setCell(15, 2, 'pets.PetsTest')
+data.setCell(15, 3, 1198);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'deletePetTest')
+data.setCell(16, 2, 'pets.PetsTest')
+data.setCell(16, 3, 1197);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'createArrayOfUsersTest')
+data.setCell(17, 2, 'user.UserTest')
+data.setCell(17, 3, 1181);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'findPurchaseOrderTest')
+data.setCell(18, 2, 'store.StoreTest')
+data.setCell(18, 3, 1171);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">store.StoreTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">bs</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">user.UserTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">bs</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pets.PetsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">bs</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">bc</span>
+                <span class="method-start">327 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addPetTest</span>
+                <span class="method-start">499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">uploadPetImageTest</span>
+                <span class="method-start">2617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPetByStatusTest</span>
+                <span class="method-start">4172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updatePetTest</span>
+                <span class="method-start">5394 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPetByIdTest</span>
+                <span class="method-start">6593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPetWithFormDataTest</span>
+                <span class="method-start">7809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePetTest</span>
+                <span class="method-start">9017 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">store.StoreTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">bc</span>
+                <span class="method-start">10216 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderTest</span>
+                <span class="method-start">10242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPurchaseOrderTest</span>
+                <span class="method-start">11510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">readPetInventoriesTest</span>
+                <span class="method-start">12684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePurchaseOrderTest</span>
+                <span class="method-start">13903 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">user.UserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">bc</span>
+                <span class="method-start">15117 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createUserTest</span>
+                <span class="method-start">15147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginUserTest</span>
+                <span class="method-start">16367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createArrayOfUsersTest</span>
+                <span class="method-start">17590 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createListOfUsersTest</span>
+                <span class="method-start">18772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">readUserTest</span>
+                <span class="method-start">19992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateUserTest</span>
+                <span class="method-start">21195 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutUserTest</span>
+                <span class="method-start">22399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUserTest</span>
+                <span class="method-start">23602 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
